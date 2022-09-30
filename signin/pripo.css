@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+}
+
+#startop {
+    height: 15vh;
+    opacity: 0.8;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-top: 1.2rem;
+}
+
+#titop {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 1000;
+}
+
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.horizontal-list li a {
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: rgb(100, 93, 93);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.text-center {
+    text-align: center;
+}
+
+#conty {
+    background-color: lightgray;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-top: 1.2rem;
+}
+
+#pol {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+
+
+#login {
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #aaaaaa 0%, #232324 74%);
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+#login p,
+#login p span {
+    color: white;
+    font-size: 20px;
+    margin-right: 230px;
+}
+#div-login{
+    font-size: 25px;
+}
+
+td{
+    padding: 10px
+}
+
+
+
+
+.table-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.table-links a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+
+/* Common Margin Classes */
+
+.m0 {
+    margin: 0;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.mb50px {
+    margin-bottom: 40px;
+}
+
+
+.aside {
+	display: inline-block;
+	overflow: hidden;
+}
+
+#conta{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    text-align: center;
+}
