@@ -1,0 +1,469 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+
+/* Body Header */
+
+#body-header {
+    height: 80vh;
+    opacity: 0.9;
+    background-image: url(media/halo2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-top: 1.2rem;
+}
+
+
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.horizontal-list li a {
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+
+#my-name {
+    font-size: 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.1rem;
+    color:  rgb(41, 40, 40);
+    font-weight: 650;
+    margin-bottom: 0.5rem;
+}
+
+#my-name:hover{
+    color: rgb(41, 40, 40);
+    transition: color 0.5s, border-bottom 4s;
+
+}
+
+
+
+
+
+/*Section Classes*/
+
+section {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span {
+    font-size: 40px;
+    font-family:Fontsweb;
+    color: rgb(97, 101, 102);
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+.section-heading span :hover{
+    color: rgb(204, 204, 204);
+    transition: color 0.5s, border-bottom 4s; 
+
+}
+
+
+
+
+/*About Section*/
+
+#abouty {
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-image: url("media/background2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+    background: url(media/bgbg.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+
+
+
+/* Recommendations Section */
+
+
+#Recommendations-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+#Recommendations{
+    background-image: url("media/background2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.Recommendations-image-container {
+    max-width: 300px;
+    overflow: hidden;
+    margin: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.Recommendations-image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.Recommendations-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+
+.Recommendations-image-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.Recommendations-image-container:hover .Recommendations-details {
+    background-color: #80808078;
+    color: white;
+}
+
+
+
+/* website information */
+
+#login {
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #aaaaaa 0%, #232324 74%);
+    color: white;
+    padding-bottom: 40px;
+}
+
+#login p,
+#login p span {
+    color: white;
+    font-size: 20px;
+    margin-right: 230px;
+}
+#div-login{
+    font-size: 25px;
+}
+
+td{
+    padding: 10px
+}
+
+
+
+
+.table-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.table-links a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+
+/* Common Margin Classes */
+
+.m0 {
+    margin: 0;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.mb50px {
+    margin-bottom: 40px;
+}
+
+
+.aside {
+	display: inline-block;
+	overflow: hidden;
+}
+/* section one of the main part */
+.section-1 {
+	
+	height: 96vh;
+	overflow: fixed;
+	overflow-x: hidden;
+    background-image: url("media/background2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* overflow should be scrollable but the scroll bar should be hidden*/
+.section-1::-webkit-scrollbar {
+	display: none;
+
+}
+/* section 2 of the main part */
+.section-2 {
+	width: 28%;
+	height: 86vh;
+}
+/* aside section 1 */
+.outer-carousel {
+	position: relative;
+	left: 15vw;
+	margin-top: 5%;
+	transition: all ease-in-out 1s;
+}
+/* carousel */
+.carousel {
+	position:absolute
+	left: 2%;
+	width: 68%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	overflow: visible;
+	justify-content: space-around;
+}
+/* general properties for images in the carousel */
+.carousel img {
+	height: 20vw;
+	width: 28vw;
+	border-radius: 20px;
+	transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+}
+/* first image in the carousel */
+/* if you see it direction wise, then it is the third image in the carousel */
+.carousel img:nth-child(1) {
+	position: relative;
+	left: 54vw;
+	z-index: 5;
+}
+/* image which is in the maddle of the carousel */
+.carousel img:nth-child(2) {
+    position: relative;
+    left: 8vw;
+	z-index: 4;
+}
+/* third image in the carousel */
+/* if you see it direction wise, then it is the first image in the carousel */
+.carousel img:nth-child(3) {
+	position: relative;
+	right: 35vw;
+	z-index: 3;
+	}
+
+.carousel img:nth-child(4) {
+    position: relative;
+    right: 12vw;
+    z-index: 2;
+}
+
+.carousel img:nth-child(5) {
+    position: relative;
+    right: 22vw;
+    z-index: 1;
+}
+.carousel img:hover {
+        z-index: 6;
+        box-shadow: 0px 0px 12px 0.1px black;
+        height: 20vw;
+        width: 30vw;
+    }
+    
+    /* latest release */
+    
+    .latest-release {
+        position: relative;
+        top: 20vw;
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #about {
+    text-align: center;
+    font-family:Fontsweb;
+    font-size: 32px;
+    color: rgb(97, 101, 102);
+    padding: 2rem;
+    }
+    #about:hover {
+        color: rgb(204, 204, 204);
+        transition: color 0.5s, border-bottom 4s; 
+    
+    }
+
+    #content {
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke:white;
+    }
+    #unchi {
+        font-size: 12px;
+    }
+
+    #assas {
+        font-size: 12px;
+    }
+
+    #gowsa {
+        font-size: 12px;
+    }
+
+    #masco {
+        font-size: 12px;
+    }
+
+    #prope {
+        font-size: 12px;
+    }
+
+    #tloud {
+        font-size: 12px;
+    }
+
+    #top-list{
+        padding: 10px;
+        width: 70%;
+        text-align: justify;
+        margin-top: 120px;
+        margin-left: 225px;
+        text-align: center;
+        background-color: rgba(97, 96, 96, 0.562);
+    }
+    #top-list p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #top-list p a {
+        font-weight: 1000;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    
+    #top-list p a:hover {
+    
+        color: rgb(59, 144, 214);
+        border-bottom: 1px solid rgb(59, 144, 214);
+    }
+
+    .button {
+        font-size: 25px;
+        background-color: lightgray;
+        border-radius: 20%;
+        margin: 13px;
+        width: 80px;
+        height: 35px;
+        border: 1.5px solid black;
+    }
+
+    .button a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .button a:hover {
+        color: rgb(59, 144, 214);
+    }
+
+    @font-face {
+        font-family: Fontsweb;
+        src: url(fonts/GoblinOne-Regular.ttf);
+      }
+#cloud{
+    background-image: url("media/cloud.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140px;
+    width: 100%;
+    opacity: 0.6;
+}
+
